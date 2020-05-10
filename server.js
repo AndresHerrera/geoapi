@@ -7,7 +7,7 @@ const port = 3000;
 
 app.get('/', function(req,res)
 {
-    res.send('GeoAPI is running !');
+    res.send('GeoAPI example is running !');
 });
 
 app.use('/api',layerRouter)

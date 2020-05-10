@@ -55,12 +55,15 @@ Edificios (GeoJSON)
 http://localhost:3000/api/layers/edificios
 
 Todos los sitios de interes (GeoJSON)
+
+http://localhost:3000/api/layers/sitios
+
+Sitios de interes de tipo: ** bicycle_parking ** (GeoJSON)
+
 http://localhost:3000/api/layers/sitios/bicycle_parking
 
-Sitios de interes tipo: bicycle_parking (GeoJSON)
-http://localhost:3000/api/layers/sitios/bicycle_parking
+Sitios de interes de tipo: ** restaurant ** (GeoJSON)
 
-Sitios de interes tipo: restaurant (GeoJSON)
 http://localhost:3000/api/layers/sitios/restaurant
 
 Original Repo:
