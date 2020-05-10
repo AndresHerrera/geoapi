@@ -1,6 +1,6 @@
 # GeoAPI Example
 
-RESTful API with Node.js to provide geographic data stored in PostgreSQL / PostGIS.
+A very simple RESTful API with Node.js and Express to provide geographic data stored in PostgreSQL / PostGIS
 
 ## Requirements
 
@@ -30,7 +30,7 @@ cd geoapi
 npm install
 vim config.js
 ```
-Update database credentials in ** config.js **  file 
+Update database credentials in **config.js**  file 
 
 ```javascript
 const config = {
@@ -48,7 +48,7 @@ const config = {
 ```
 node server.js 
 ```
-#### Examples
+### Examples
 
 Edificios (GeoJSON)
 
@@ -58,13 +58,14 @@ Todos los sitios de interes (GeoJSON)
 
 http://localhost:3000/api/layers/sitios
 
-Sitios de interes de tipo: ** bicycle_parking ** (GeoJSON)
+Sitios de interes de tipo: **bicycle_parking** (GeoJSON)
 
 http://localhost:3000/api/layers/sitios/bicycle_parking
 
-Sitios de interes de tipo: ** restaurant ** (GeoJSON)
+Sitios de interes de tipo: **restaurant** (GeoJSON)
 
 http://localhost:3000/api/layers/sitios/restaurant
 
-Original Repo:
-> https://github.com/sigdeletras/geoapi
+### Original repository:
+
+> [1] https://github.com/sigdeletras/geoapi
